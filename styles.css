@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling - Changed to Black */
+header {
+    text-align: center;
+    background: black;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+}
+
+/* Social Media Icons Styling */
+.social-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f0db4f;
+}
+
+/* Navigation Styling */
+nav {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+}
+
+#back-to-top {
+    padding: 10px 15px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#back-to-top:hover {
+    background: #0056b3;
+}
